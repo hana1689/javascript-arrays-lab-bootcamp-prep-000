@@ -6,9 +6,9 @@ function destructivelyAppendKitten(name)
   kittens = kittens.concat(name)
   return kittens
 }
-
 function destructivelyPrependKitten(name)
 {
   kittens = [name, ...kittens]
   return kittens
 }
+function 
