@@ -3,7 +3,7 @@ var kittens = ['Milo', 'Otis', 'Garfield']
 
 function destructivelyAppendKitten(name)
 {
-  kittens = kittens.concat(name)
+  kittens = kittens.push(name)
   return kittens
 }
 function destructivelyPrependKitten(name)
@@ -36,4 +36,8 @@ function removeLastKitten()
   kittens = kittens.slice(0, kittens.length - 1)
   return kittens
 }
-function 
+function removeFirstKitten()
+{
+  kittens = kittens.slice(1)
+  return kittens
+}
