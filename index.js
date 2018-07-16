@@ -1,5 +1,6 @@
 // Add your functions and code here
 var kittens = ['Milo', 'Otis', 'Garfield']
+var kittens2 = []
 
 function destructivelyAppendKitten(name)
 {
@@ -23,7 +24,7 @@ function destructivelyRemoveFirstKitten()
 }
 function appendKitten(name)
 {
-  var kittens2 = kittens2.concat(name)
+  kittens2 = kittens2.concat(name)
   return kittens2
 }
 function prependKitten(name)
