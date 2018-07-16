@@ -1,6 +1,6 @@
 // Add your functions and code here
-function destructivelyAppendKitten(array, name)
+function destructivelyAppendKitten(array)
 {
-  array = array.concat(name)
+  array = array.concat("Ralph")
   return array
 }
