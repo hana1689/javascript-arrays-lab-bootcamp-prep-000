@@ -13,7 +13,11 @@ function destructivelyPrependKitten(name)
 }
 function destructivelyRemoveLastKitten()
 {
-  kittens = kittens.slice(0, 2)
+  kittens = kittens.slice(0, kittens.length)
   return kittens
 }
-funtion 
+funtion destructivelyRemoveFirstKitten()
+{
+  kittens = kittens.slice(1)
+  return kittens
+}
